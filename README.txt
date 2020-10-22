@@ -45,7 +45,7 @@
 #Boegel, Sebastian; Loewer, Martin; Schaefer, Michael; Bukur, Thomas; Graaf, Jos de; Boisguerin, Valesca et al. (2013): HLA typing from RNA-Seq sequence reads. In: Genome Med 4 (12), S. 102. DOI: 10.1186/gm403.
 #
 #License:
-#University of Oxford License
+#GNU General Public License v3.0
 #Copyright (c) 2020 Irina Chelysheva
 
 ####################################################################
