@@ -34,7 +34,7 @@ Optional parameters:
 2) Dependent python scripts single_end.py and paired_end.py must be located in the same folder.
 3) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) must be reachable by the command ```bowtie```.
 4) R must be installed.
-5) Index files must be located in the folder "references".
+5) Index files must be located in subfolder /references.
 6) Packages: [biopython](https://github.com/biopython/biopython) (developed with V1.58), [numpy](https://github.com/numpy/numpy) (≥1.3.0).
 
 ## Output
