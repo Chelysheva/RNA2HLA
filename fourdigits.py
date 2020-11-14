@@ -2,7 +2,7 @@ import sys, os
 import numpy as np
 
 """
-Determination of the 4-digit HLA type based on the 2-digit determination by seq2HLA.py
+Determination of the 4-digit HLA type based on the 2-digit determination by paired_end.py or single_end.py
 """
 
 
