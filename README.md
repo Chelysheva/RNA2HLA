@@ -50,7 +50,7 @@ Individual outputs in txt format produced for each RNA-seq sample in the folder 
 1.0: initial tool
 
 ## References
-HLA-typing algorithm is based on [seq2HLA](https://github.com/TRON-Bioinformatics/seq2HLA): Boegel S, Löwer M, Schäfer M, et al. HLA typing from RNA-Seq sequence reads. *Genome Med.* 2012;4(12):102. Published 2012 Dec 22. doi:10.1186/gm403
+HLA-typing algorithm is based on seq2HLA: [Boegel S, Löwer M, Schäfer M, et al. HLA typing from RNA-Seq sequence reads. *Genome Med.* 2012;4(12):102. Published 2012 Dec 22.] (doi:10.1186/gm403)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
