@@ -4,7 +4,7 @@ HLA-based quality control of RNA-seq datasets
 
 ## Synopsis
 
-Tool extracts the HLA types of I and II classes from all the files in the folder containing raw RNA-seq data (paired on single-end).
+Tool extracts the HLA types of I and II classes from all the files in the folder containing raw RNA-seq data (paired- on single-end).
 The alleles are then cross-compared between the RNA-seq samples to identify the common source of the samples based on HLA types (4 digital resolution).
 
 
