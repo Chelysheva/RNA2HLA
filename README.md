@@ -31,14 +31,14 @@ Optional parameters:
 ## Dependencies
 
 1) RNA2HLA is a Python script (available in two versions: for Python 2 and Python 3 (coming soon)).
-2) All the dependencies provided within RNA2HLA depository (Python scripts single_end.py and paired_end.py, function scripts in R and Python, HLAI and II databases) must be downloaded and located in the same folder.
+2) All the dependencies provided within RNA2HLA depository (Python scripts single_end.py and paired_end.py, function scripts in R and Python, HLA class I and II databases) must be downloaded and located in the same folder.
 3) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) must be reachable by the command ```bowtie```.
 4) R must be installed.
 5) Index files must be located in subfolder /references.
 6) Packages: [biopython](https://github.com/biopython/biopython) (developed with V1.58), [numpy](https://github.com/numpy/numpy) (≥1.3.0).
 
 ## Output
-The final output - overall comparison matrix in csv format, which crosscompares all RNA-seq samples in the folder.
+The final output - overall comparison matrix in csv format, which cross-compares all RNA-seq samples in the given folder.
 
 Individual outputs in txt format produced for each RNA-seq sample in the folder (classes I and II are written in one file):
 1) <sampleID>.bowtielog.txt - file with statistics of HLA mapping; 
