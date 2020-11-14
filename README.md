@@ -11,7 +11,7 @@ The alleles are then cross-compared between the RNA-seq samples to identify the 
 #### Release: 1.0
 
 #### Author 
-Irina Chelysheva, 2020 (c)\
+Irina Chelysheva, 2019-2020 (c)\
 Oxford Vaccine Group, Department of Paediatrics, University of Oxford\
 [Contact](irina.chelysheva@paediatrics.ox.ac.uk)
 
@@ -30,8 +30,8 @@ Optional parameters:
 
 ## Dependencies
 
-1) RNA2HLA is a python script (available in two versions: for Python 2 and Python 3).
-2) Dependent python scripts single_end.py and paired_end.py must be located in the same folder.
+1) RNA2HLA is a Python script (available in two versions: for Python 2 and Python 3 (coming soon)).
+2) Dependent Python scripts single_end.py and paired_end.py and function scripts in R and Python must be located in the same folder.
 3) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) must be reachable by the command ```bowtie```.
 4) R must be installed.
 5) Index files must be located in subfolder /references.
@@ -45,6 +45,7 @@ Individual outputs in txt format produced for each RNA-seq sample in the folder 
 2) <sampleID>.ambiguity.txt - reports typing ambuigities (if more than one solution for an allele possible);
 3) <sampleID>.expression.txt - RPKM expression of HLA;
 4) <sampleID>.HLAgenotype4digits.txt - 4 digital HLA type.
+  
 ## Version history
 1.0: initial tool
 
