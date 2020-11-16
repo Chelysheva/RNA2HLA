@@ -215,7 +215,10 @@ for file in samplelist:
             f2=open(readFolder+"/"+globalrunName+"/"+file2)
             lines2=f2.readlines()
             #define the lines containing the HLA-types for each HLA gene
-            mylines=[2, 3, 4, 7, 8, 9]
+            if genes=="5":
+                mylines=[2, 3, 4, 7, 8]
+            else:
+                mylines=[2, 3, 4, 7, 8, 9]
             #set up the counter to count the identical alleles between two samples
             counter=0 
             #set up the counter to count total number of alleles (out of 12) considered for comparison in each couple of samples
