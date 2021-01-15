@@ -16,7 +16,7 @@ Oxford Vaccine Group, Department of Paediatrics, University of Oxford\
 [Contact](irina.chelysheva@paediatrics.ox.ac.uk)
 
 ## Usage
-```python RNA2HLA.py -f /raw_RNAseq_data_folder [-r /global_name_of_run] [-p <int>] [-3 <int>] [-c <float>] [-g <int>]```\
+```$ python RNA2HLA.py -f /raw_RNAseq_data_folder [-r /global_name_of_run] [-p <int>] [-3 <int>] [-c <float>] [-g <int>]```\
 \
 ```-f``` is required for running RNA2HLA. Folder should contain raw RNA-seq samples, single- or paired-end or both types, in a compressed or not compressed formats.\
 \
@@ -34,9 +34,9 @@ Optional parameters:
 2) All the dependencies provided within RNA2HLA depository (Python scripts single_end.py and paired_end.py, function scripts in R and Python, HLA class I and II databases) must be downloaded and located in the same folder.
 3) Index files must be downloaded and located in subfolder /references.
 4) Ther easiest way to run RNA2HLA is to create a [conda](https://github.com/conda/conda) environment using RNA2HLA_env.yml file provided:\
-```conda env create -f RNA2HLA_env.yml``` \
+```$ conda env create -f RNA2HLA_env.yml``` \
 And activate it:\
-```source activate RNA2HLA_env``` or ```conda activate RNA2HLA_env``` (depends on the conda version)
+```$ source activate RNA2HLA_env``` or ```$ conda activate RNA2HLA_env``` (depends on the conda version)
 \
 Otherwise:\
 4a) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) must be reachable by the command ```bowtie``` (developed with version 1.1.2)\
