@@ -32,10 +32,13 @@ Optional parameters:
 
 1) RNA2HLA is a Python script (available in two versions: for Python 2 and Python 3 (coming soon)).
 2) All the dependencies provided within RNA2HLA depository (Python scripts single_end.py and paired_end.py, function scripts in R and Python, HLA class I and II databases) must be downloaded and located in the same folder.
-3) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) must be reachable by the command ```bowtie```.
-4) R must be installed.
-5) Index files must be located in subfolder /references.
-6) Packages: [biopython](https://github.com/biopython/biopython) (developed with V1.58), [numpy](https://github.com/numpy/numpy) (≥1.3.0).
+3) Index files must be downloaded and located in subfolder /references.
+4) Ther easiest way to run RNA2HLA is to create a conda environment using RNA2HLA_env.yml file provided:
+```conda env create -f RNA2HLA_env.yml```
+Otherwise:
+4a) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) must be reachable by the command ```bowtie``` (developed with version 1.1.2)
+4b) R must be installed.
+4c) Packages: [biopython](https://github.com/biopython/biopython) (developed with 1.76), [numpy](https://github.com/numpy/numpy) (developed with 1.16.6), [pandas](https://github.com/pandas-dev/pandas) (developed with 0.24)
 
 ## Output
 The final output - overall comparison matrix in csv format, which cross-compares all RNA-seq samples in the given folder.
