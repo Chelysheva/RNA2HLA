@@ -35,7 +35,7 @@ Optional parameters:
 3) Index files must be downloaded and located in subfolder /references.
 4) Ther easiest way to run RNA2HLA is to create a [conda](https://github.com/conda/conda) environment using RNA2HLA_env.yml file provided:\
 ```conda env create -f RNA2HLA_env.yml``` \
-And activate it:
+And activate it:\
 ```source activate RNA2HLA_env``` or ```conda activate RNA2HLA_env``` (depends on the conda version)
 \
 Otherwise:\
