@@ -22,7 +22,7 @@ Oxford Vaccine Group, Department of Paediatrics, University of Oxford\
 \
 Optional parameters:
 - ```-r``` to be used as a prefix for all output files
-- ```-p``` number of parallel search threads for bowtie optional (default: 6)
+- ```-p``` number of parallel search threads for bowtie (default: 6)
 - ```-3``` trim <int> bases from the low-quality end of each read
 - ```-c``` confidence level for HLA-typing (default: 0.05)
 - ```-g``` number of HLA genes to be included for typing (default: 5, may be increased to 6 - adding DQB1)
