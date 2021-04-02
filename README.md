@@ -37,13 +37,14 @@ Optional parameters:
 ```$ conda env create -f RNA2HLA_env.yml``` \
 And activate it:\
 ```$ source activate RNA2HLA_env``` or ```$ conda activate RNA2HLA_env``` (depends on the conda version)\
+
 **Update from 2.04.2021:**
 One user reported an error while trying to create an environment from the original yml file (this error does not appear in most cases). If you experience an error, please, use an alternative environment file RNA2HLA_env_alt.yml instead.
 
 Otherwise:\
 4a) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) must be reachable by the command ```bowtie``` (developed with version 1.1.2)\
 4b) R must be installed.\
-4c) Packages: [biopython](https://github.com/biopython/biopython) (developed with 1.76), [numpy](https://github.com/numpy/numpy) (developed with 1.16.6), [pandas](https://github.com/pandas-dev/pandas) (developed with 0.24.2)
+4c) Packages: [biopython](https://github.com/biopython/biopython) (developed with 1.76), [numpy](https://github.com/numpy/numpy) (developed with 1.16.6, !caused an error for some users, in those cases - 1.15 is preferrable), [pandas](https://github.com/pandas-dev/pandas) (developed with 0.24.2)
 
 ## Output
 The final output - overall comparison matrix in csv format, which cross-compares all RNA-seq samples in the given folder.
