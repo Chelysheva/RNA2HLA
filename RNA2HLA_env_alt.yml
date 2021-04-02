@@ -1,0 +1,14 @@
+name: RNA2HLA_env
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=2.7
+  - numpy=1.15
+  - pandas=0.24.2
+  - pip=19.3.1
+  - biopython=1.76
+  - python-dateutil=2.8.1
+  - conda-forge::r-base=3.6.3
+  - bioconda::bowtie=1.1.2
