@@ -37,7 +37,7 @@ Optional parameters:
 ```$ conda env create -f RNA2HLA_env.yml``` \
 And activate it:\
 ```$ source activate RNA2HLA_env``` or ```$ conda activate RNA2HLA_env``` (depends on the conda version)
-# Update from 2.04.2021: 
+### Update from 2.04.2021: 
 One user reported an error while trying to create an environment from the original yml file (this error does not appear in most cases). If you experience an error, please, use an alternative environment file RNA2HLA_env_alt.yml instead.
 \
 Otherwise:\
