@@ -37,7 +37,7 @@ Optional parameters:
 ```$ conda env create -f RNA2HLA_env.yml``` \
 And activate it:\
 ```$ source activate RNA2HLA_env``` or ```$ conda activate RNA2HLA_env``` (depends on the conda version)
-### Update from 2.04.2021: 
+Update from 2.04.2021: 
 One user reported an error while trying to create an environment from the original yml file (this error does not appear in most cases). If you experience an error, please, use an alternative environment file RNA2HLA_env_alt.yml instead.
 \
 Otherwise:\
@@ -60,8 +60,9 @@ In the case of studying a particular population with prior knowledge of the low 
 ## Version history
 1.0: initial tool
 
-## References
-HLA-typing algorithm is based on seq2HLA: [Boegel S, Löwer M, Schäfer M, et al. HLA typing from RNA-Seq sequence reads. *Genome Med.* 2012;4(12):102. Published 2012 Dec 22.](https://genomemedicine.biomedcentral.com/articles/10.1186/gm403)
+## Citing RNA2HLA
+Please, cite the following publication, if you are using RNA2HLA in your research: 
+[Irina Chelysheva, Andrew J Pollard, Daniel O’Connor, RNA2HLA: HLA-based quality control of RNA-seq datasets, Briefings in Bioinformatics, 2021](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbab055/6184409)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
