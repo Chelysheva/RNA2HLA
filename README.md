@@ -55,6 +55,8 @@ Individual outputs in txt format produced for each RNA-seq sample in the folder 
 3) <sampleID>.expression.txt - RPKM expression of HLA;
 4) <sampleID>.HLAgenotype4digits.txt - 4 digital HLA type.
 
+**Update from 9.03.2023:** v1.1 Heatmap can be created from the overall comparison matrix csv file using an R script heatmap_HLA_identity_comparison.R
+  
 ## Limitation
 In the case of studying a particular population with prior knowledge of the low HLA allele diversity, RNA2HLA should not be used as a QC, but only as a convenient study-wide HLA-typing method. One can refer to the [Allele Frequency Net Database](http://allelefrequencies.net/pop6001a_gsb.asp) and discover HLA diversity of particular population through the interactive map. The populations with less than 50 of total known alleles should be considered as of low diversity.
 
