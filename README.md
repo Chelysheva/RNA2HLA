@@ -8,10 +8,10 @@ Tool extracts the HLA types of I and II classes from all the files in the folder
 The alleles are then cross-compared between the RNA-seq samples to identify the common source of the samples based on HLA types (4 digital resolution).
 
 
-#### Release: 1.0
+#### Releases: v1.0 - original tool; v1.1 - script creating heatmap output is added
 
 #### Author 
-Dr. Irina Chelysheva, 2019-2021 (c)\
+Dr. Irina Chelysheva, 2019-2023 (c)\
 Oxford Vaccine Group, Department of Paediatrics, University of Oxford\
 [Contact](irina.chelysheva@paediatrics.ox.ac.uk)
 
