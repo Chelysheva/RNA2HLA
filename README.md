@@ -12,8 +12,9 @@ The alleles are then cross-compared between the RNA-seq samples to identify the 
 #### Author
 
 Dr. Irina Chelysheva, 2019-2026 (c)\
+Senior Lecturer in Human Genomics, Oxford Brookes University\
 Oxford Vaccine Group, Department of Paediatrics, University of Oxford\
-[Contact](irina.chelysheva@paediatrics.ox.ac.uk)
+[Contact](i.chelysheva@brookes.ac.uk)
 
 ## Usage
 
