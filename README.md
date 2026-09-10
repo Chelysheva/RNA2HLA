@@ -39,7 +39,7 @@ Optional parameters:
 
 And activate it:
 
-```$ conda activate RNA2HLA_py37_env```
+```$ conda activate RNA2HLA_env```
 
 Otherwise:\
 4a) [bowtie](http://bowtie-bio.sourceforge.net/index.shtml) (1.x) must be reachable by the command ```bowtie``` (validated with versions 1.1.2 and 1.3.1)\
